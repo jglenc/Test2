@@ -2,7 +2,7 @@ package pack3d
 
 import "github.com/jglenc/Test"
 
-type Tree []Test.Box
+type Tree []fauxgl.Box
 
 func NewTreeForMesh(mesh *fauxgl.Mesh, depth int) Tree {
 	mesh = mesh.Copy()
