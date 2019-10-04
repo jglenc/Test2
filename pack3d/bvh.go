@@ -1,8 +1,8 @@
 package pack3d
 
-import "github.com/fogleman/fauxgl"
+import "github.com/jglenc/Test"
 
-type Tree []fauxgl.Box
+type Tree []Test.Box
 
 func NewTreeForMesh(mesh *fauxgl.Mesh, depth int) Tree {
 	mesh = mesh.Copy()
