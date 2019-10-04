@@ -5,7 +5,7 @@ import (
 	"os"
 	"path"
 
-	. "github.com/fogleman/fauxgl"
+	. "github.com/jglenc/Test"
 )
 
 func separate(filename string) {
