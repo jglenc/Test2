@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fogleman/fauxgl"
-	"github.com/fogleman/pack3d/binpack"
+	"github.com/jglenc/Test"
+	"github.com/jglenc/Test2/binpack"
 )
 
 const (
