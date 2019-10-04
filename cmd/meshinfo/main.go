@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	. "github.com/fogleman/fauxgl"
+	. "github.com/jglenc/Test"
 )
 
 func main() {
